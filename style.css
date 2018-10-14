@@ -1,4 +1,5 @@
 @import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Hind+Siliguri:400,700');
 
 * {
     box-sizing: border-box;
@@ -7,13 +8,11 @@
 html,
 body {
     width: 100%;
-}
-
-div.container {
+    font-family: 'Hind Siliguri', sans-serif;
     color: black;
     background-color: white;
-}
 
+}
 
 nav header a {
     display: block;
@@ -25,7 +24,7 @@ nav header a {
     text-decoration: none;
 }
 
-nav > a {
+nav>a {
     display: block;
     padding: 0.5rem;
     padding-left: 1rem;
@@ -97,14 +96,15 @@ section h5 {
 }
 
 pre {
-    background-color: #e0f2f1;
     padding: 0 0.3rem;
     width: 100%;
     overflow-x: scroll;
 }
 
+pre,
 code {
     background-color: #e0f2f1;
+    font-family: 'Cutive Mono', monospace;
 }
 
 ul {
