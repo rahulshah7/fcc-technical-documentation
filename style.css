@@ -1,4 +1,129 @@
+@import 'reset.css';
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+div.container {
+    color: black;
+    background-color: white;
+}
+
+
+nav header {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    border: #80cbc4 1px solid;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #004d40;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    width: 100%;
+}
+
 header {
-    color: red;
-    font-size: 2rem;
+    color: #004d40;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+main article {
+    padding-left: 1rem;
+}
+
+main a {
+    color: #00bfa5;
+}
+
+main a:hover,
+main a:focus {
+    color: #1de9b6;
+}
+
+main a:visited {
+    color: #00796b;
+}
+
+section p {
+    margin: 0.75rem 0;
+}
+
+section h2 {
+    font-size: 1.4;
+    font-weight: 700;
+    margin: 0.75rem 0;
+}
+
+section h3 {
+    font-size: 1.3;
+    font-weight: 700;
+    margin: 0.75rem 0;
+}
+
+section h4 {
+    font-size: 1.2;
+    font-weight: 700;
+    margin: 0.75rem 0;
+}
+
+section h5 {
+    font-size: 1.1;
+    font-weight: 700;
+    margin: 0.75rem 0;
+}
+
+pre {
+    background-color: #e0f2f1;
+    padding: 0 0.3rem;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+code {
+    background-color: #e0f2f1;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0 2rem;
+}
+
+li {
+    line-height: 1.5rem;
+}
+
+@media (min-width: 1280px) {
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 1vh;
+        width: 25%;
+    }
+
+    main {
+        margin-left: 25%;
+        padding-left: 1rem;
+        border-left: 3px solid #009688;
+        width: 75%;
+    }
 }
