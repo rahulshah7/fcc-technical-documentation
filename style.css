@@ -15,12 +15,17 @@ div.container {
 }
 
 
-nav header {
+nav header a {
+    display: block;
     text-align: center;
     font-size: 1.3rem;
+    color: #004d40;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
 }
 
-nav a {
+nav > a {
     display: block;
     padding: 0.5rem;
     padding-left: 1rem;
